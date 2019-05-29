@@ -2,3 +2,5 @@ UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide
 UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide-wal
 UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide-shm
 UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/db.lock
+/UserManagementService/UserManagementService/obj/UserManagementService.csproj.nuget.dgspec.json
+/UserManagementService/.vs/config/applicationhost.config

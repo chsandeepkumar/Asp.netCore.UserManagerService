@@ -1,9 +1,10 @@
-﻿using UserManagementService.Entities;
+﻿using AutoMapper;
+using UserManagementService.Entities;
 using UserManagementService.Models;
 
 namespace UserManagementService.Mappers
 {
-    public interface IUserMapper
+    public interface IUserMapper 
     {
         ApplicationUser ToEntity(ApplicationUserViewModel applicationUserViewModel);
         ApplicationUserViewModel FromEntity(ApplicationUser applicationUserViewModel);
