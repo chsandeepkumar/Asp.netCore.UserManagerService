@@ -1,6 +1,37 @@
-UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide
-UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide-wal
-UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/storage.ide-shm
-UserManagementService/.vs/UserManagementService/v15/Server/sqlite3/db.lock
-/UserManagementService/UserManagementService/obj/UserManagementService.csproj.nuget.dgspec.json
-/UserManagementService/.vs/config/applicationhost.config
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
