@@ -6,9 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using UserManagementService.Entities;
-using UserManagementService.Mappers;
 using UserManagementService.Models;
 
 namespace UserManagementService
@@ -35,7 +33,6 @@ namespace UserManagementService
 
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<AuthenticationContext.AuthenticationContext>();
-            services.AddSingleton<IUserMapper, UserMapper>();
 
             services.Configure<IdentityOptions>(options =>
                 {
